@@ -1,0 +1,40 @@
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>s1</servlet-name>
+		<servlet-class>com.warrior.InsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s1</servlet-name>
+		<url-pattern>/insertserv</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s2</servlet-name>
+		<servlet-class>com.warrior.UpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s2</servlet-name>
+		<url-pattern>/updateserv</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s3</servlet-name>
+		<servlet-class>com.warrior.SelectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s3</servlet-name>
+		<url-pattern>/selectserv</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s4</servlet-name>
+		<servlet-class>com.warrior.DeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s4</servlet-name>
+		<url-pattern>/deleteserv</url-pattern>
+	</servlet-mapping>
+
+</web-app>
